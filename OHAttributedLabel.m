@@ -52,7 +52,7 @@ BOOL CTRunContainsCharactersFromStringRange(CTRunRef run, NSRange range);
 
 
 CTTextAlignment CTTextAlignmentFromUITextAlignment(UITextAlignment alignment) {
-	switch (alignment) {
+	switch ((int)alignment) {
 		case UITextAlignmentLeft: return kCTLeftTextAlignment;
 		case UITextAlignmentCenter: return kCTCenterTextAlignment;
 		case UITextAlignmentRight: return kCTRightTextAlignment;
