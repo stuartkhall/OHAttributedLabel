@@ -245,6 +245,7 @@ const int UITextAlignmentJustify = ((UITextAlignment)kCTJustifiedTextAlignment);
 	[customLinks addObject:link];
 	[self setNeedsDisplay];
 }
+
 -(void)removeAllCustomLinks
 {
 	[customLinks removeAllObjects];
